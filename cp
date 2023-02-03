@@ -1,5 +1,4 @@
-<?php
- ############################################## 
+############################################## 
 function c(){system('clear');} 
 
 function rt(){c();$t=$_SERVER["TMPDIR"];if(file_exists($t)){system("rm -rf $t/* 2>&1");return true;}} 
